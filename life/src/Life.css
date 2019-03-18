@@ -1,0 +1,57 @@
+.cmdList {
+  background-color: #282c34;
+  max-height: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+body * {
+  cursor: default;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  font-family: cursive;
+}
+button {
+  margin: 0 4px;
+  padding: 0;
+}
+input {
+  width: 40px;
+  margin: 0;
+}
+
+table {
+  height: 900px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #488;
+  height: 4px;
+  width: 4px;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+
+.alive {
+  background-color: #dd0000;
+}
+.dead {
+  background-color: #233;
+}
+
+#board-container {
+  height: calc(100%-2em);
+  background-color: black;
+  border: 2px solid yellow;
+}
